@@ -1,10 +1,10 @@
 /*
  * Jared Lee
- * 11/27/19
+ * 11/27
  * Array Activity
  */
 import java.awt.*;
-import java.util.Random;  //for our random number generator
+import java.util.Random;  //for random number generator
 
 
 
@@ -147,10 +147,7 @@ int min = stats[0];
 
 
 	public void sortBArray() {
-		/*Here is another common sort algorithm.
-		  It sorts the array in ascending order.
-		  This is called a bubble sort.  I have added it
-		  so that you can take a look at it.*/
+		//Bubble Sort
 
 		int tempValue;
 
