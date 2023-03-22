@@ -17,7 +17,7 @@ public class StatsArrayGUI extends JFrame
 
 	private JPanel panel;
 
-	//instantiate your StatsArray object called grades
+	//instantiate StatsArray object called grades
 	//that contains a 10 element integer array
 	private StatsArray grades = new StatsArray( );
 
@@ -118,7 +118,7 @@ public class StatsArrayGUI extends JFrame
 			g.drawString("New Values" , 50, 20);
 		}
 
-		grades.display(g);  //lets see the array of random numbers!
+		grades.display(g);  //display the array of random numbers!
 	}
 
 }
